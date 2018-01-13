@@ -66,7 +66,7 @@ var s2TotalsLayerGroup = L.featureGroup();
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   // L.tileLayer("http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png", {
-  attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors | <a href="https://goo.gl/forms/jVQOTAdsE9KdGIe52" target="_blank">Missing raid location?</a>'
+  attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.facebook.com/groups/273877699635623/" target="_blank">Lokalna Grupa Facebook</a>'
 }).addTo(map);
 
 L.control.locate().addTo(map);
@@ -228,7 +228,7 @@ $("#primary-group").on("change", 'input[type="radio"]', function (e) {
       break;
     case "parks":
       key = "terrains";
-      defaultButton = "2016-08-01";
+      defaultButton = "2017-01-07";
       addToMap(function (feature) {
         return feature.properties[key] && feature.properties[key].indexOf(defaultButton) > -1;
       });
