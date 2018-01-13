@@ -82,7 +82,7 @@ const s2TotalsLayerGroup = L.featureGroup();
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   // L.tileLayer("http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png", {
   attribution:
-    '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors | <a href="https://goo.gl/forms/jVQOTAdsE9KdGIe52" target="_blank">Missing raid location?</a>'
+    '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.facebook.com/groups/273877699635623/" target="_blank">Lokalna Grupa Facebook</a>'
 }).addTo(map);
 
 L.control.locate().addTo(map);
@@ -241,10 +241,10 @@ $("#primary-group").on("change", 'input[type="radio"]', e => {
 
       // default
       $("#secondary-group").prepend(`
-        <label class="btn btn-secondary" for="all">
-          <input type="radio" name="${key}" id="all" value="all" checked>
-          Wszystkie
-        </label>
+//        <label class="btn btn-secondary" for="all">
+//          <input type="radio" name="${key}" id="all" value="all" checked>
+//          Wszystkie
+//        </label>
       `);
       break;
     case "all":
@@ -252,7 +252,7 @@ $("#primary-group").on("change", 'input[type="radio"]', e => {
       break;
     case "parks":
       key = "terrains";
-      defaultButton = "2016-08-01";
+      defaultButton = "2017-01-07";
       addToMap(
         feature =>
           feature.properties[key] &&
@@ -261,9 +261,9 @@ $("#primary-group").on("change", 'input[type="radio"]', e => {
 
       // default
       $("#secondary-group").append(`
-        <label class="btn btn-light" disabled>
-          Wykluczone na tydzien od:
-        </label>
+//        <label class="btn btn-light" disabled>
+//          Wykluczone na tydzien od:
+//        </label>
       `);
 
       terrains.forEach(terrain => {
