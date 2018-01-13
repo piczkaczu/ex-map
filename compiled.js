@@ -221,7 +221,7 @@ $("#primary-group").on("change", 'input[type="radio"]', function (e) {
       });
 
       // default
-      $("#secondary-group").prepend("\n        <label class=\"btn btn-secondary\" for=\"all\">\n          <input type=\"radio\" name=\"" + key + "\" id=\"all\" value=\"all\" checked>\n          Wszystkie\n        </label>\n      ");
+//      $("#secondary-group").prepend("\n        <label class=\"btn btn-secondary\" for=\"all\">\n          <input type=\"radio\" name=\"" + key + "\" id=\"all\" value=\"all\" checked>\n          Wszystkie\n        </label>\n      ");
       break;
     case "all":
       addToMap();
@@ -234,7 +234,7 @@ $("#primary-group").on("change", 'input[type="radio"]', function (e) {
       });
 
       // default
-      $("#secondary-group").append("\n        <label class=\"btn btn-light\" disabled>\n          Wykluczone na tydzien od:\n        </label>\n      ");
+//      $("#secondary-group").append("\n        <label class=\"btn btn-light\" disabled>\n          Wykluczone na tydzien od:\n        </label>\n      ");
 
       terrains.forEach(function (terrain) {
         $("#secondary-group").append("\n          <label class=\"btn btn-secondary\" for=\"" + terrain + "\">\n            <input type=\"radio\" name=\"" + key + "\" id=\"" + terrain + "\" value=\"" + terrain + "\"\n              " + (terrain === defaultButton ? "checked" : "") + ">\n            " + moment(terrain).format("DD-MM") + "\n          </label>\n        ");
