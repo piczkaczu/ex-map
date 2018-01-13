@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Gorzowska Mapa EX Raid</title>
+    <meta name='viewport' 
+
+content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script 
+
+src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script 
+
+src="https://unpkg.com/leaflet.markercluster@1.2.0/dist/leaflet.markercluster.js"></script>
+    <script 
+
+src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.62.0/src/L.Control.Locate.min.js" charset="utf-8"></script>
+    <script 
+
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script 
+
+src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/moment.min.js"></script>
+    <script 
+
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script 
+
+src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" 
+
+href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" 
+
+href="https://unpkg.com/leaflet.markercluster@1.2.0/dist/MarkerCluster.css" />
+    <link rel="stylesheet" 
+
+href="https://unpkg.com/leaflet.markercluster@1.2.0/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" 
+
+href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" 
+
+href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.62.0/dist/L.Control.Locate.min.css" />
+    <link rel="stylesheet" 
+
+href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"    />
+    <style>
+        body {
+      
+
+      margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            z-index: 0;
+            position: absolute;
+            top: 
+
+0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .leaflet-control.leaflet-control-zoom, .leaflet-control.leaflet-
+
+control-layers {
+            margin-top: 6rem;
+        }
+
+        #primary-group, #secondary-group {
+            z-index: 1;
+        }
+
+     
+
+   #secondary-group {
+            overflow: auto;
+            max-width: 100%;
+        }
+
+        label {
+            cursor: pointer;
+     
+
+   }
+
+        .s2-label {
+            font-weight: bolder;
+            margin: 2px !important;
+            /* Use color, background, set 
+
+margins for offset, etc */
+        }
+
+        .s2-label.s2-count {
+            color: red;
+            font-size: 150%;
+            
+
+margin-left: -0.6em !important;
+            margin-top: -0.3em !important;
+        }
+
+        .s2-label.s2-total {
+            color: 
+
+blue;
+            font-size: 150%;
+            margin-left: 0.1em !important;
+            margin-top: -1.2em !important;
+        }
+    
+
+</style>
+</head>
+
+<body>
+    <div id="topbar">
+        <div class="btn-group" id="primary-group" role="group" data-toggle="buttons">
+      
+
+      <label class="btn btn-secondary" for="all">
+                <input type="radio" name="gyms" id="all" value="all">Gymy w parkach
+       
+
+     </label>
+            <label class="btn btn-secondary" for="parks">
+                <input type="radio" name="gyms" id="parks" 
+
+value="parks">Wykluczone
+            </label>
+            <label class="btn btn-secondary active" for="raids">
+                <input 
+
+type="radio" name="gyms" id="raids" value="raids">Wytypowane
+            </label>
+        </div>
+        <div class="btn-group" 
+
+id="secondary-group" data-toggle="buttons">
+        </div>
+    </div>
+
+    <div id='map'></div>
+
+    <noscript>
+        Oops! This map will 
+
+not work without javascript, so you need to enable it. It won't hurt, I swear on mewtwo's fingers.
+    </noscript>
+    <script 
+
+src="compiled.js"></script>
+</body>
+
+</html>
