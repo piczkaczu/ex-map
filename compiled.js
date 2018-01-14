@@ -47,7 +47,7 @@ var markers = L.markerClusterGroup({
 });
 var map = L.map("map", {
   center: [52.742, 15.243],
-  zoom: 11,
+  zoom: 12,
   minZoom: 1
 }).on("overlayadd", function () {
   $("#secondary-group > .active > input").trigger("change");
