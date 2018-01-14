@@ -118,8 +118,8 @@ var addToMap = function addToMap() {
 var overlayS2Labels = function overlayS2Labels(s2CellCount) {
   var s2Cells = L.featureGroup(s2latLngs.map(function (_ref) {
     var s2Cell = _ref.s2Cell,
-        topleft = _ref.topleft;
-    return L.marker(topleft, {
+        topright = _ref.topright;
+    return L.marker(topright, {
       icon: L.divIcon({
         className: "s2-label",
         html: s2CellCount[s2Cell] ? s2Cell : ""
@@ -129,8 +129,8 @@ var overlayS2Labels = function overlayS2Labels(s2CellCount) {
 
   var counts = L.featureGroup(s2latLngs.map(function (_ref2) {
     var s2Cell = _ref2.s2Cell,
-        topright = _ref2.topright;
-    return L.marker(topright, {
+        topleft = _ref2.topleft;
+    return L.marker(topleft, {
       icon: L.divIcon({
         className: "s2-label s2-count",
         html: s2CellCount[s2Cell] ? s2CellCount[s2Cell].count : ""
@@ -153,7 +153,7 @@ var overlayS2Labels = function overlayS2Labels(s2CellCount) {
   s2CountsLayerGroup.clearLayers();
   s2TotalsLayerGroup.clearLayers();
   s2LayerGroup.addLayer(s2PolygonLayer);
-//  s2LayerGroup.addLayer(s2Cells);
+  s2LayerGroup.addLayer(s2Cells);
   s2CountsLayerGroup.addLayer(counts);
   s2TotalsLayerGroup.addLayer(totals);
 };
