@@ -99,7 +99,7 @@ var addToMap = function addToMap() {
     filter: filter,
     pointToLayer: function pointToLayer(geoJsonPoint, latLng) {
       return L.marker(latLng, {
-        opacity: isS2Toggled ? 0.7 : 1
+        opacity: isS2Toggled ? 1 : 1
       });
     },
     onEachFeature: onEachFeature
