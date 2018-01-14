@@ -216,7 +216,7 @@ fetchLocal(
       .layers(null, {
         "Strefy S2": s2LayerGroup,
         "Liczba Gymow w strefie": s2CountsLayerGroup,
-        "Total raids per cell (blue)": s2TotalsLayerGroup
+        "Liczba Gymow typowanych": s2TotalsLayerGroup
       })
       .addTo(map);
   });
