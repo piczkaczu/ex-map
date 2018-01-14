@@ -35,7 +35,7 @@ var renderPopup = function renderPopup(layer) {
     exraidHTML += "<div>Nietypowany</div>";
   }
 
-  return "\n    <strong>\n    " + feature.properties.name + "\n    </strong>\n    " + exraidHTML + "\n    <div>S2 Cell: " + feature.properties.s2Cell + "</div>\n    <br/>\n    <div>\n      <a target=\"_blank\" href=\"\n      https://www.google.com/maps/search/?api=1&query=" + lngLat[1] + "," + lngLat[0] + "\n      \">\n        Google Maps\n      </a>\n    </div>\n    <br/>\n    <div>\n      <a target=\"_blank\" href=\"\n      #" + lngLat[1] + "," + lngLat[0] + "\n      \">\n        \n      </a>\n    </div>\n    ";
+  return "\n    <strong>\n    " + feature.properties.name + "\n    </strong>\n    " + exraidHTML + "\n    <div>Strefa: " + feature.properties.s2Cell + "</div>\n    <br/>\n    <div>\n      <a target=\"_blank\" href=\"\n      https://www.google.com/maps/search/?api=1&query=" + lngLat[1] + "," + lngLat[0] + "\n      \">\n        Google Maps\n      </a>\n    </div>\n    <br/>\n    <div>\n      <a target=\"_blank\" href=\"\n      #" + lngLat[1] + "," + lngLat[0] + "\n      \">\n        \n      </a>\n    </div>\n    ";
 };
 
 var markers = L.markerClusterGroup({
