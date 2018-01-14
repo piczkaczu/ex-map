@@ -203,7 +203,6 @@ fetchLocal("https://rawgit.com/piczkaczu/3ea7e08161aaad618af5423dab59b9d2/raw/40
   L.control.layers(null, {
     "Strefy S2": s2LayerGroup,
     "Liczba Gymow w strefie": s2CountsLayerGroup,
-    "Liczba Gymow typowanych": s2TotalsLayerGroup
   }).addTo(map);
 });
 
