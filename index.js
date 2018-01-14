@@ -33,7 +33,7 @@ const renderPopup = layer => {
     ${feature.properties.name}
     </strong>
     ${exraidHTML}
-    <div>S2 Cell: ${feature.properties.s2Cell}</div>
+    <div>Strefa: ${feature.properties.s2Cell}</div>
     <br/>
     <div>
       <a target="_blank" href="
