@@ -228,7 +228,7 @@ $("#primary-group").on("change", 'input[type="radio"]', function (e) {
       break;
     case "parks":
       key = "terrains";
-      defaultButton = "2017-01-07";
+      defaultButton = "2017-01-14";
       addToMap(function (feature) {
         return feature.properties[key] && feature.properties[key].indexOf(defaultButton) > -1;
       });
