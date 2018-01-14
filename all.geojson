@@ -1,1 +1,276 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[15.22912,52.7309]},"properties":{"name":"Pomnik Marszałka Piłsudskiego","terrains":["2017-01-07"],"dates":["2017-01-03"],"s2Cell":"A8"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.2328,52.73016]},"properties":{"name":"Mural przy wodospadzie","terrains":["2017-01-03"],"dates":["2017-01-07"],"s2Cell":"A8"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.22468,52.74355]},"properties":{"name":"Tablica Park Slowianski","terrains":["2017-01-07"],"dates":["2017-01-03"],"s2Cell":"A4"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.21135,52.74547]},"properties":{"name":"Scieżki biegowe","terrains":["2017-01-03"],"dates":["2017-01-07"],"s2Cell":"A4"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.24213,52.76163]},"properties":{"name":"750 Year Of City","terrains":["2017-01-03","2017-01-07"],"dates":[],"s2Cell":"A2"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.25892,52.75956]},"properties":{"name":"Wielki Paw","terrains":["2017-01-03"],"dates":["2017-01-07"],"s2Cell":"A2"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.26235,52.75904]},"properties":{"name":"Pomnik Włodzimierza Korsaka","terrains":["2017-01-07"],"dates":["2017-01-03"],"s2Cell":"A2"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.23523,52.73951]},"properties":{"name":"Gracjan","terrains":["2017-01-03","2017-01-07"],"dates":[],"s2Cell":"A5"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.23398,52.74169]},"properties":{"name":"Memorial Dla Ireny Dowgielewicz","terrains":["2017-01-03"],"dates":["2017-01-07"],"s2Cell":"A5"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.24549,52.74271]},"properties":{"name":"Fontanna w parku Kopernika","terrains":["2017-01-07"],"dates":["2017-01-03"],"s2Cell":"A5"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.24189,52.73729]},"properties":{"name":"Wieża Ciśnień","terrains":["2017-01-03","2017-01-07"],"dates":[],"s2Cell":"A5"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.24424,52.74163]},"properties":{"name":"Graffiti Garazowe","terrains":["2017-01-03","2017-01-07"],"dates":[],"s2Cell":"A5"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[15.24833,52.74543]},"properties":{"name":"Skate Park","terrains":["2017-01-03","2017-01-07"],"dates":[],"s2Cell":"A5"}}]}
+{
+  "type":"FeatureCollection",
+  "features":[
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.22912,
+         52.7309
+       ]
+      },
+       "properties":{
+         "name":"Pomnik Marszałka Piłsudskiego",
+         "terrains":[
+           "2017-01-07"
+         ],
+         "dates":[
+           "2017-01-03"
+         ],
+         "s2Cell":"A8"
+       }
+      },
+      {"type":"Feature",
+       "geometry":{
+         "type":"Point",
+         "coordinates":[
+           15.2328,
+           52.73016
+         ]
+       },
+       "properties":{
+         "name":"Mural przy wodospadzie",
+         "terrains":[
+           "2017-01-03"
+         ],
+         "dates":[
+           "2017-01-07"
+         ],
+         "s2Cell":"A8"
+       }
+      },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.22468,
+         52.74355
+       ]
+     },
+     "properties":{
+       "name":"Tablica Park Slowianski",
+       "terrains":[
+         "2017-01-07"
+       ],
+       "dates":[
+         "2017-01-03"
+       ],
+       "s2Cell":"A4"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.21135,
+         52.74547
+       ]
+     },
+     "properties":{
+       "name":"Scieżki biegowe",
+       "terrains":[
+         "2017-01-03"
+       ],
+       "dates":[
+         "2017-01-07"
+       ],
+       "s2Cell":"A4"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+        "type":"Point",
+       "coordinates":[
+         15.24213,
+         52.76163
+       ]
+     },
+     "properties":{
+       "name":"750 Year Of City",
+       "terrains":[
+         "2017-01-03",
+         "2017-01-07"
+       ],
+       "dates":[
+       ],
+       "s2Cell":"A2"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.25892,
+         52.75956
+       ]
+     },
+     "properties":{
+       "name":"Wielki Paw",
+       "terrains":[
+         "2017-01-03"
+       ],
+       "dates":[
+         "2017-01-07"
+       ],
+       "s2Cell":"A2"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.26235,
+         52.75904
+       ]
+     },
+     "properties":{
+       "name":"Pomnik Włodzimierza Korsaka",
+       "terrains":[
+         "2017-01-07"
+       ],
+       "dates":[
+         "2017-01-03"
+       ],
+       "s2Cell":"A2"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.23523,
+         52.73951
+       ]
+     },
+     "properties":{
+       "name":"Gracjan",
+       "terrains":[
+         "2017-01-03",
+         "2017-01-07"
+       ],
+       "dates":[
+       ],
+       "s2Cell":"A5"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.23398,
+         52.74169
+       ]
+     },
+     "properties":{
+       "name":"Memorial Dla Ireny Dowgielewicz",
+       "terrains":[
+         "2017-01-03"
+       ],
+       "dates":[
+         "2017-01-07"
+       ],
+       "s2Cell":"A5"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.24549,
+         52.74271
+       ]
+     },
+     "properties":{
+       "name":"Fontanna w parku Kopernika",
+       "terrains":[
+         "2017-01-07"
+       ],
+       "dates":[
+         "2017-01-03"
+       ],
+       "s2Cell":"A5"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.24189,
+         52.73729
+       ]
+     },
+     "properties":{
+       "name":"Wieża Ciśnień",
+       "terrains":[
+         "2017-01-03",
+         "2017-01-07"
+       ],
+       "dates":[
+       ],
+       "s2Cell":"A5"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.24424,
+         52.74163
+       ]
+     },
+     "properties":{
+       "name":"Graffiti Garazowe",
+       "terrains":[
+         "2017-01-03",
+         "2017-01-07"
+       ],
+       "dates":[
+       ],
+       "s2Cell":"A5"
+     }
+    },
+    {"type":"Feature",
+     "geometry":{
+       "type":"Point",
+       "coordinates":[
+         15.24833,
+         52.74543
+       ]
+     },
+     "properties":{
+       "name":"Skate Park",
+       "terrains":[
+         "2017-01-03",
+         "2017-01-07"
+       ],
+       "dates":[
+       ],
+       "s2Cell":"A5"
+     }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
