@@ -129,8 +129,8 @@ var overlayS2Labels = function overlayS2Labels(s2CellCount) {
 
   var counts = L.featureGroup(s2latLngs.map(function (_ref2) {
     var s2Cell = _ref2.s2Cell,
-        topleft = _ref2.topleft;
-    return L.marker(topleft, {
+        bottomleft = _ref2.bottomleft;
+    return L.marker(bottomleft, {
       icon: L.divIcon({
         className: "s2-label s2-count",
         html: s2CellCount[s2Cell] ? s2CellCount[s2Cell].count : ""
