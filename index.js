@@ -215,8 +215,7 @@ fetchLocal(
     L.control
       .layers(null, {
         "Strefy S2": s2LayerGroup,
-        "Liczba Gymow w strefie": s2CountsLayerGroup,
-        "Liczba Gymow typowanych": s2TotalsLayerGroup
+        "Liczba Gymow w strefie": s2CountsLayerGroup
       })
       .addTo(map);
   });
