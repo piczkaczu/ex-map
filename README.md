@@ -1,5 +1,5 @@
 # Mapa Gymów typowanych do EX Raidów
 
-n/a
+https://piczkaczu.github.io/
 
 
